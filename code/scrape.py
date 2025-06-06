@@ -13,10 +13,10 @@ SESSION_ID = os.environ["WATCHUP_SESSION_ID"]
 # this needs a fullset
 REFS = [
 	# "126710GRNR-0003",
-	"126500LN-0001",
+	# "126500LN-0001",
 	# "5968A-001", 
 	# "278271-0006", 
-] # + DJ_REFS
+] + DJ_REFS
 
 results = {}
 for ref in tqdm(REFS):
