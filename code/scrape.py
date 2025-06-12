@@ -12,6 +12,7 @@ SESSION_ID = os.environ["WATCHUP_SESSION_ID"]
 
 # this needs a fullset
 REFS = [
+	"126529LN-0001",
 	# "126710GRNR-0003",
 	# "126500LN-0001",
 	# "5968A-001", 
